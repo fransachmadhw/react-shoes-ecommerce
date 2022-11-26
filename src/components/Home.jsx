@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <div className='w-full'>
         <h1 className='text-center text-neutral-900 text-3xl lg:text-5xl font-semibold my-[48px]'>React E-Commerce</h1>
-        <div className='w-full my-12 gap-y-7 grid grid-cols-2 lg:grid-cols-4 place-items-center px-5'>
+        <div className='w-full my-12 gap-y-7 grid grid-cols-2 lg:grid-cols-4 place-items-center px-2 lg:px-5'>
             <Link to={'/product/1'} state={{ data: dataSepatu.product1 }}>
                 <Card
                     title={dataSepatu.product1.title}
